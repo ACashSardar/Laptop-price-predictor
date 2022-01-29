@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/7b/46/88/7b4688ba1dbc2b2937c6e49dfb502fd1.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: block;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+.card {
+    height: 80vh;
+    width: 70%;
+    background-color:rgba(255, 255, 255, 0.15);
+    backdrop-filter:blur(15px);
+    margin: auto;
+    border-radius: 15px;
+    margin:auto;
+    box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.desc {
+    width: 100%;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    position: relative;
+    top: 5%;
+    font-family:'Fira Code';
+    font-size: 3vw;
+    
+}
+
+form {
+    height: inherit;
+}
+select {
+    background:linear-gradient(to bottom,rgb(200, 200, 200),rgb(255, 255, 255),rgb(200, 200, 200));
+    border-color: rgb(250, 250, 250);
+    border-width: 2px;
+    color: rgb(24, 24, 24);
+    border-radius:10px;
+    height: 7%;
+    width: 28%;
+    position: relative;
+    top:7%;
+    left:7%;
+    padding:0px;
+    margin-top: 3%;
+    font-size: 1.5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: rgb(238, 255, 0);
+    color: rgb(24, 24, 24);
+    position: absolute;
+    font-size:2vw;
+    bottom: 19%;
+    right:16%;
+    border-radius:15px;
+    height: 7%;
+    width: 33%;
+    border-color: rgb(80, 80, 80);
+    border-width: 2px;
+}
