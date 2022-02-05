@@ -46,15 +46,15 @@
             </select>
             <select name="RAM_size" id="RAM_size">
                 <option value="RAM_size">Choose RAM size</option>
-                <option value="2">2</option>
-                <option value="4">4</option>
-                <option value="6">6</option>
-                <option value="8">8</option>
-                <option value="12">12</option>
-                <option value="16">16</option>
-                <option value="24">24</option>
-                <option value="32">32</option>
-                <option value="64">64</option>
+                <option value="2">2 GB</option>
+                <option value="4">4 GB</option>
+                <option value="6">6 GB</option>
+                <option value="8">8 GB</option>
+                <option value="12">12 GB</option>
+                <option value="16">16 GB</option>
+                <option value="24">24 GB</option>
+                <option value="32">32 GB</option>
+                <option value="64">64 GB</option>
             </select>
             <select name="CPU_brand" id="CPU_brand">
                 <option value="CPU_brand">Choose CPU brand</option>
@@ -140,9 +140,10 @@
             </select>
             <input type="submit" value="Check Price"> 
 
-            <label style="font-size:1.5vw;position: absolute;left:6%; bottom: 6%;font-size:2vw;
-            font-family: 'Courier New';color: rgb(255, 255, 255);font-weight: bold;text-shadow: 2px 2px rgb(48, 48, 48);"> 
-                The approx. price of your Laptop would be {{price}} INR</label>     
+            <div class="price"> 
+                </label>The approx. price of your Laptop would be {{price}}₹</label>
+            </div>
+
     </form>
     </div>
 </body>
